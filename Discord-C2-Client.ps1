@@ -16,6 +16,7 @@
 **INFORMATION**
 - The Discord bot you use must be in one server ONLY
 -------------------------------------------------------------------------------------------------
+#this is a test script
 #>
 # =====================================================================================================================================================
 $global:token = "MTI4NzkwNzE3NTkyMTg4MTE4MA.GbOGX9.69dwpanYJiqVAHvLONnpzNBtysbnvnSmZQue3M" # make sure your bot is in ONE server only
